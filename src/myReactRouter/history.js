@@ -32,8 +32,8 @@ function createBrowserHistory() {
   // 我们这里监听这个事件是为了处理浏览器的前进后退
     window.addEventListener('popstate', handlePop);
     const history={
-        listen(listeners){
-            return listeners.push(listeners)
+        listen(listener){
+            return listeners.push(listener)
         },
         push(url){
             const history = window.history

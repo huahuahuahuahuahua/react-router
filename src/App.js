@@ -17,10 +17,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/login" component={Login}/>
-        <Route path="/backend" component={Backend}/>
-        <Route path="/admin" component={Admin}/>
-        <Route path="/" component={Home}/>
+        <Route path="/login" component={Login} />
+        <Route path="/backend" component={Backend} />
+        <Route path="/admin" component={Admin} />
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   );
